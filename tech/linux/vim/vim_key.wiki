@@ -1,0 +1,12 @@
+%title Vim
+
+== Normal operation ==
+
+* Move the cursor
+
+| Direction | Command |
+|------|------|
+| Up   | :k   |
+| Down   | :j   |
+| Left   | :h   |
+| Right   | :l   |

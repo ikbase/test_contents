@@ -1,0 +1,5 @@
+%title  My Wiki On Github
+
+=== Technology ===
+* [[tech/linux/index|Linux]]
+* [[tech/git/git|Git]]

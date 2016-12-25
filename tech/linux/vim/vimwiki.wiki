@@ -1,0 +1,45 @@
+%title VimWiki
+
+== vimwiki syntax ==
+* *bold*
+* _italics_
+* ~~delete line~~
+* ^Some Code^
+* ^A^superscript ,,B,,subscript
+* blockquote
+
+	    The contents of the four spaces indented are converted to blockquote
+	    
+* Code
+{{{ class="brush:php"
+	The middle of the content will be put into a pre, the paste code.
+	}}}
+	
+* Form
+
+New
+
+:VimwikiTable 5 2
+
+Delete rows and columns
+dac
+
+== vimwiki command ==
+* Convert HTML: ":VimwikiAll2HTML"
+* Search Wiki: ":VimwikiSearch /keys/ " or ":VWS /keys/"
+* Search Results View: ":lopen" View all results
+
+== vimwiki shortcut ==
+
+* Open index.wiki --> \ww
+* Open diary.wiki --> \wi
+* Open multiple wiki projects
+	[count]<leader>wt
+
+== vimwiki extension ==
+
+=== Journaling ===
+Use the shortcut <leader> w <leader> w to quickly edit the day's diary.
+
+After finishing the day diary, refresh the diary page
+<leader>w<leader>i
